@@ -33,3 +33,6 @@
 
 # VS Folder
 .vs/
+
+# OUT Folder
+out/

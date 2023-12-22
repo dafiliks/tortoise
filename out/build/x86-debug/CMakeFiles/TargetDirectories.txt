@@ -1,0 +1,5 @@
+C:/Users/davidfiliks/source/repos/cppturtle/out/build/x86-debug/CMakeFiles/edit_cache.dir
+C:/Users/davidfiliks/source/repos/cppturtle/out/build/x86-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/davidfiliks/source/repos/cppturtle/out/build/x86-debug/cppturtle/CMakeFiles/cppturtle.dir
+C:/Users/davidfiliks/source/repos/cppturtle/out/build/x86-debug/cppturtle/CMakeFiles/edit_cache.dir
+C:/Users/davidfiliks/source/repos/cppturtle/out/build/x86-debug/cppturtle/CMakeFiles/rebuild_cache.dir

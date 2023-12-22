@@ -1,12 +1,10 @@
-﻿// cppturtle.cpp : Defines the entry point for the application.
-//
+﻿#include <iostream>
+#include <conio.h>
+#include <SDL.h>
 
 #include "../cppturtle/cppturtle.h"
 
-using namespace std;
-
-int main()
+int main(int argc, char *argv[])
 {
-	cout << "Hello CMake." << endl;
 	return 0;
 }
