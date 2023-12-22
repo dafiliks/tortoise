@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <conio.h>
 #include <SDL.h>
 
 #include "../cppturtle/cppturtle.h"

@@ -46,9 +46,23 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
-    - name: Install SDL2
+  
+    - name: Install SDL2 for ubuntu-latest
       run: sudo apt-get install libsdl2-dev
+      if: matrix.os == 'ubuntu-latest'
+
+    - name: Install SDL2 for windows-latest
+      run: certutil.exe -urlcache -split -f "https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-devel-2.28.5-VC.zip" sdl.zip
+      if: matrix.os == 'windows-latest'
+
+    - name: Unzip SDL for windows-latest
+      run: tar -xf sdl.zip
+      if: matrix.os == 'windows-latest'
+
+    - name: Set CMAKE_PREFIX_PATH env variable for windows-latest
+      run: setx CMAKE_PREFIX_PATH %cd%
+      if: matrix.os == 'windows-latest'
+
     - name: Set reusable strings
       # Turn repeated input strings (such as the build output directory) into step outputs. These step outputs can be used throughout the workflow file.
       id: strings
@@ -65,13 +79,14 @@ jobs:
         -DCMAKE_C_COMPILER=${{ matrix.c_compiler }}
         -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
         -S ${{ github.workspace }}
-
+      if: matrix.os == 'ubuntu-latest'
     - name: Build
       # Build your program with the given configuration. Note that --config is needed because the default Windows generator is a multi-config generator (Visual Studio generator).
       run: cmake --build ${{ steps.strings.outputs.build-output-dir }} --config ${{ matrix.build_type }}
-
+      if: matrix.os == 'ubuntu-latest'
     - name: Test
       working-directory: ${{ steps.strings.outputs.build-output-dir }}
       # Execute tests defined by the CMake configuration. Note that --build-config is needed because the default Windows generator is a multi-config generator (Visual Studio generator).
       # See https://cmake.org/cmake/help/latest/manual/ctest.1.html for more detail
       run: ctest --build-config ${{ matrix.build_type }}
+      if: matrix.os == 'ubuntu-latest'
