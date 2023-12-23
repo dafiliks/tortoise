@@ -52,11 +52,11 @@ jobs:
       if: matrix.os == 'ubuntu-latest'
 
     - name: Install SDL2 for windows-latest
-      run: certutil.exe -urlcache -split -f "https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-devel-2.28.5-VC.zip" sdl.zip
+      run: certutil.exe -urlcache -split -f "https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-devel-2.28.5-VC.zip" sdl2.zip
       if: matrix.os == 'windows-latest'
 
     - name: Unzip SDL for windows-latest
-      run: tar -xf sdl.zip
+      run: tar -xf sdl2.zip
       if: matrix.os == 'windows-latest'
 
     - name: Set CMAKE_PREFIX_PATH env variable for windows-latest
