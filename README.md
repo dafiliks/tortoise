@@ -7,7 +7,7 @@
 </p>
 <br>
 
-This project is an implementation of the [python turtle library](https://docs.python.org/3/library/turtle.html) in C++ (using SDL as a dependency for rendering), created with the goals of being fast, easy to use and being able to allow people of all skillsets to
+This project is an implementation of the [python turtle library](https://docs.python.org/3/library/turtle.html) in C++ (using SDL2 as a dependency for rendering), created with the goals of being fast, easy to use and being able to allow people of all skillsets to
 produce cool looking graphics. Additionally, it is also perfect for beginners trying to learn C++ as using this library provides a fun way to learn the syntax of the language while creating cool graphics/images!
 
 - - -
