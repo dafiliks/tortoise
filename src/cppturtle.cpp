@@ -1,7 +1,7 @@
 //================================================================================================
 /// @file cppturtle.cpp
 ///
-/// @brief Contains definitions for every function in the library
+/// @brief Defines every function in the library
 /// @author David Filiks
 ///
 /// @copyright 2023 David Filiks

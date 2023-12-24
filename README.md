@@ -1,74 +1,74 @@
 <h1 align="center">cppturtle</h1>
 <p align="center">
-<img src="assets/transparent.png" align="center" width="500" title="cppturtle">
 <br>
 <img alt="GitHub Workflow Status" align="center" src="https://img.shields.io/github/actions/workflow/status/davidfiliks/cppturtle/cmake-multi-platform.yml">
 <img alt="GitHub Project Licence" align="center" src="https://img.shields.io/github/license/davidfiliks/cppturtle">
 </p>
 <br>
 
-This project is an implementation of the [python turtle library](https://docs.python.org/3/library/turtle.html) in C++ (using [SDL2](https://github.com/libsdl-org/SDL/tree/SDL2) as a dependency for rendering), created with the goals of being fast, easy to use and being able to allow people of all skillsets to
-produce cool looking graphics. Additionally, it is also perfect for beginners trying to learn C++ as using this library provides a fun way to learn the syntax of the language while creating cool graphics/images!
+This library is an implementation of the [Python turtle library](https://docs.python.org/3/library/turtle.html) in C++ using [SDL2](https://github.com/libsdl-org/SDL/tree/SDL2). I created this library so that people of all programming skill levels can create cool-looking graphics!
 
-- - -
-
-**IMPORTANT:** This library is still very much work in progress and probably will be for a decent amount of time. I am currently working on this project by myself and I would not recommend using this library on any serious projects **yet** as there is probably some unknown bugs.
-
-- - -
-
+This library is great because:
+- Is very easy to use.
+- Perfect for beginners to learn C++ syntax.
+- Is object-oriented.
+- Comes with great documentation.
+- Can produce rather complex graphics with a small amount of code.
 
 ## Example usage
 ```cpp
-(NO EXAMPLE YET, CPPTURTLE STILL AT EARLY STAGES OF DEVELOPMENT)
+(NO EXAMPLE YET, CPPTURTLE IS STILL IN THE EARLY STAGES OF DEVELOPMENT)
 ```
 
 ## Installation
-To install the library, download or copy paste the all cpp/hpp files in the [cppturtle folder](https://github.com/davidfiliks/cppturtle/tree/main/cppturtle) to your project.
+To install the library, download or copy and paste all the cpp, hpp and CMake files in the [cppturtle folder](https://github.com/davidfiliks/cppturtle/tree/main/cppturtle) to your project and start using the library right away!
 
-After this, you need to install SDL2 as it is a dependency of the library. For linux systems, you should be able to just use your package manager to install SDL2.
-Here is an example using the ubuntu package manager.
+After this, install SDL2 on Linux using a package manager. Below is the command for the Ubuntu package manager. 
 ```bash
+# Install sdl2
 sudo apt-get install libsdl2-dev
 ```
 
-For windows systems, it is a bit more difficult. You need to download [SDL2](https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-devel-2.28.5-VC.zip) from this hyperlink and unzip it.
-Next you will have to create a new enviroment variable under the user variables section called ***CMAKE_PREFIX_PATH*** and set the value to the full top-level directory of the unzipped SDL2 download. The folder's
-name should be **SDL2-2.28.5**.
-
-Alternatively, on **Windows 10 build 17063 or later** you could also use cmd to install it by **cd**'ing into the wanted download directory and pasting these commands one by one.
+If you are on **Windows 10 build 17063 or later**, you can **cd** into the wanted download directory and paste these commands.
 ```bash
+# Download sdl2.zip
 certutil.exe -urlcache -split -f "https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-devel-2.28.5-VC.zip" sdl2.zip
+# Unzip sdl2.zip
 tar -xf sdl2.zip
+# Add sdl2 to your CMAKE_PREFIX_PATH environment variable
 setx CMAKE_PREFIX_PATH %cd%
 ```
 
-## How to build the project
-Building the project with CMake is very easy. For both linux and windows systems you can build the project using the commands in the example below one by one.
+After doing this, you should be able to `#include` the library's primary header file, `cppturtle.hpp` to your project.
+## Building the project
+For both Linux and Windows, you can simply paste these commands to build the project.
 ```bash
+# Clone the cppturtle repository
 git clone https://github.com/davidfiliks/cppturtle.git
+# Go into the cppturtle folder
 cd cppturtle
 
+# Create a folder called build
 mkdir build
+# Go into the build folder
 cd build
+# Use cmake on the previous directory
 cmake ..
 ```
 
 ## Documentation 
-You can view the full documentation [here](docs/documentation.md). Alternatively, all functions in the source code are labelled with comments on what their purpose is (sort of a mini documentation). 
-
-(^^ don't exist yet because this project is still very early work in progress!)
+This library has a very well-written documentation. You can see the full documentation [here](docs/DOCUMENTATION.md). Alternatively, every function in this library has comments regarding its purpose, parameters, return types, etc.
 
 ## Issues and pull requests 
-If you have any suggestions, ideas, or any sort of contribution, feel free to ask! If you want to personally ask something in private, my discord username is `davidfiliks`
+If you have any suggestions, ideas, or any sort of contribution, feel free to ask!
+Please also open an issue if you have an issue (obviously).
 
 Contribution guidelines can be found [here](CONTRIBUTING.md).
 
-(^^ don't exist yet because this project is still very early work in progress!)
-
-If you found this project useful, a star would be appreciated.
+If you found this project interesting and like the idea, feel free to give it a star.
 
 ## Legal
-Click [here](https://github.com/davidfiliks/cppturtle/blob/main/LICENSE) to view the licence of the project or just look below.
+Click [here](https://github.com/davidfiliks/cppturtle/blob/main/LICENSE) to view the license of the project or just look below.
 
 ```
 MIT License

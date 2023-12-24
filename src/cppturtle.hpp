@@ -1,7 +1,7 @@
 ﻿//================================================================================================
 /// @file cppturtle.hpp
 ///
-/// @brief Defines the cppturtle class and declares every function
+/// @brief Defines the cppturtle class and creates prototypes of every function
 /// @author David Filiks
 ///
 /// @copyright 2023 David Filiks

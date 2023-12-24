@@ -12,4 +12,4 @@ endif()
 project ("cppturtle")
 
 # Include sub-projects.
-add_subdirectory ("cppturtle")
+add_subdirectory ("src")
