@@ -14,4 +14,4 @@ std::pair<SDL_Window*, SDL_Renderer*> cppturtle::init(int width, int height)
 	return std::make_pair(window, renderer);
 }
 
-void cppturtle::delay(std::uint32_t ms) { SDL_Delay(ms); }
+void cppturtle::delay(uint32_t ms) { SDL_Delay(ms); }

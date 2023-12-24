@@ -28,7 +28,7 @@ public:
 	* @param ms Amount of milliseconds
 	* @returns void
 	*/
-	void delay(std::uint32_t ms);
+	void delay(uint32_t ms);
 };
 
 #endif 
