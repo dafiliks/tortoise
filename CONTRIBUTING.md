@@ -28,7 +28,7 @@ int a{}; /// Holds value of ...
 An example for a macro/typedef:
 ```cpp
 #define PI 3.14 /// Value of PI
-typedef uint8_t u8 /// Shortens uint8_t to u8
+typedef uint8_t u8; /// Shortens uint8_t to u8
 ```
 
 An example for a class:
