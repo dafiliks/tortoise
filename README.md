@@ -1,5 +1,6 @@
 <h1 align="center">cppturtle</h1>
 <p align="center">
+<img src="assets/transparent.png" align="center" width="500" title="cppturtle">
 <br>
 <img alt="GitHub Workflow Status" align="center" src="https://img.shields.io/github/actions/workflow/status/davidfiliks/cppturtle/cmake-multi-platform.yml">
 <img alt="GitHub Project Licence" align="center" src="https://img.shields.io/github/license/davidfiliks/cppturtle">
