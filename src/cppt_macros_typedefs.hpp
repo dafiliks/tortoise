@@ -15,7 +15,7 @@
 #include <iostream>
 #include <SDL.h>
 
-#define CPPT_WINDOWPOS_CENTERED SDL_WINDOWPOS_CENTERED;
+#define CPPT_WINDOWPOS_CENTERED SDL_WINDOWPOS_CENTERED
 
 typedef SDL_Window CPPT_WINDOW;
 typedef SDL_Renderer CPPT_RENDERER;
