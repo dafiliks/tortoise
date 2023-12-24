@@ -2,7 +2,7 @@
 
 find_package(SDL2 REQUIRED)
 
-add_executable (cppturtle "../tests/main.cpp" "cppturtle.h")   
+add_executable (cppturtle "../tests/main.cpp" "cppturtle.hpp" "cppturtle.cpp")   
 
 target_link_libraries(cppturtle SDL2::SDL2 SDL2::SDL2main)
 
