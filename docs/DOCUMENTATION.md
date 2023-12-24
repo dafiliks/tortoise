@@ -99,6 +99,8 @@ int main()
     turtle.init("test", 200, 200, 640, 480);
     turtle.bgcolor(100, 100, 100, 255);
 
+    turtle.present();
+
     turtle.delay(10000);
 
     return 0;
