@@ -1,19 +1,19 @@
 <h1 align="center">cppturtle</h1>
 <p align="center">
-<br>
+
 <img alt="GitHub Workflow Status" align="center" src="https://img.shields.io/github/actions/workflow/status/davidfiliks/cppturtle/cmake-multi-platform.yml">
 <img alt="GitHub Project Licence" align="center" src="https://img.shields.io/github/license/davidfiliks/cppturtle">
 </p>
-<br>
+<br><br>
 
 This library is an implementation of the [Python turtle library](https://docs.python.org/3/library/turtle.html) in C++ using [SDL2](https://github.com/libsdl-org/SDL/tree/SDL2). I created this library so that people of all programming skill levels can create cool-looking graphics!
 
 This library is great because:
-- Is very easy to use.
-- Perfect for beginners to learn C++ syntax.
-- Is object-oriented.
-- Comes with great documentation.
-- Can produce rather complex graphics with a small amount of code.
+- Is very easy to use
+- Perfect for beginners to learn C++ syntax
+- Is object-oriented
+- Comes with great documentation
+- Can produce rather complex graphics with a small amount of code
 
 ## Example usage
 ```cpp
@@ -44,7 +44,7 @@ After doing this, you should be able to `#include` the library's primary header 
 For both Linux and Windows, you can simply paste these commands to build the project.
 ```bash
 # Clone the cppturtle repository
-git clone https://github.com/davidfiliks/cppturtle.git
+git clone https://github.com/dafiliks/cppturtle.git
 # Go into the cppturtle folder
 cd cppturtle
 
@@ -68,7 +68,7 @@ Contribution guidelines can be found [here](CONTRIBUTING.md).
 If you found this project interesting and like the idea, feel free to give it a star.
 
 ## Legal
-Click [here](https://github.com/davidfiliks/cppturtle/blob/main/LICENSE) to view the license of the project or just look below.
+Click [here](blob/main/LICENSE) to view the license of the project or just look below.
 
 ```
 MIT License
