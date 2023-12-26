@@ -1,10 +1,11 @@
 <h1 align="center">tortoise</h1>
 <p align="center">
-
+<img src="assets/cropped.jpg" align="center" width="500" height="200" title="logo">
+<br>
 <img alt="GitHub Workflow Status" align="center" src="https://img.shields.io/github/actions/workflow/status/dafiliks/tortoise/cmake-multi-platform.yml">
 <img alt="GitHub Project Licence" align="center" src="https://img.shields.io/github/license/dafiliks/tortoise">
 </p>
-<br>
+<br> <br>
 
 This library is an implementation of the [Python turtle library](https://docs.python.org/3/library/turtle.html) in C++ using [SDL2](https://github.com/libsdl-org/SDL/tree/SDL2). I created this library so that people of all programming skill levels can create cool-looking graphics!
 
