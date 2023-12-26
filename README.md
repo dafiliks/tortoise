@@ -1,6 +1,6 @@
 <h1 align="center">tortoise</h1>
 <p align="center">
-<img src="assets/oval.png" align="center" width="500" height="200" title="logo">
+<img src="assets/croppedcircle.png" align="center"  title="logo">
 <br>
 <img alt="GitHub Workflow Status" align="center" src="https://img.shields.io/github/actions/workflow/status/dafiliks/tortoise/cmake-multi-platform.yml">
 <img alt="GitHub Project Licence" align="center" src="https://img.shields.io/github/license/dafiliks/tortoise">
