@@ -2,7 +2,7 @@
 
 find_package(SDL2 REQUIRED)
 
-add_executable (cppturtle "../tests/tests.cpp" "cppturtle.hpp" "cppturtle.cpp" "cppt_macros_typedefs.hpp")   
+add_executable (cppturtle "../tests/tests.cpp" "tortoise.hpp" "tortoise.cpp" "macros_typedefs.hpp")   
 
 target_link_libraries(cppturtle SDL2::SDL2 SDL2::SDL2main)
 

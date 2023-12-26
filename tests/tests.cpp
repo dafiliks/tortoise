@@ -1,29 +1,42 @@
-﻿//================================================================================================
-/// @file tests.cpp
-///
-/// @brief Runs a simple program using the library
-/// @author David Filiks
-///
-/// @copyright 2023 David Filiks
-//================================================================================================
+﻿// @file tests.cpp
+//
+// @brief Runs a simple program using the library
+// @author David Filiks
+//
+// @copyright 2023 David Filiks
 
-// Includes
-#include "../src/cppturtle.hpp"
+#include "../src/tortoise.hpp"
 
-// Fix unresolved externals
-#undef main
+#undef main // Fix unresolved externals
 
-// Main function
 int main()
 {
-	cppturtle turtle{};
+	tortoise tortoise{};
 
-	turtle.init("test", 200, 200, 640, 480);
-	turtle.bgcolor(50, 200, 10, 255);
+	tortoise.init("example", CENTERED, CENTERED, 640, 480);
 
-	turtle.present();
 
-	turtle.delay(10000);
+	tortoise.bgcolor(0, 0, 0, 255);
+	tortoise.pencolor(255, 255, 255, 255);
+
+	tortoise.penupleft(200);
+	
+	tortoise.forward(50);
+	tortoise.left(14);
+	tortoise.right(25);
+
+	tortoise.penupright(50);
+	tortoise.left(25);
+	tortoise.backward(50);
+	tortoise.right(25);
+	tortoise.forward(50);
+
+	tortoise.penupright(50);
+	tortoise.left(40);
+
+	tortoise.present();
+
+	tortoise.delay(99999);
 
 	return 0;
 }
