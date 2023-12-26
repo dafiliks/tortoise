@@ -17,9 +17,11 @@ This library is great because:
 - Can produce rather complex graphics with a small amount of code
 
 ## Example usage
-This is how the logo you see above this was made.
+This is how the logo you see above was made.
 
 You can see the full file [here](tests/tests.cpp).
+
+***(Please note that there are much more efficient ways to do this with only a fraction of the amount of code that was used here)***
 ```cpp
 #include "../src/tortoise.hpp"
 
@@ -27,7 +29,7 @@ You can see the full file [here](tests/tests.cpp).
 
 int main()
 {
-	// Create tortoise object
+	// Create a tortoise object
 	tortoise tortoise{};
 
 	// Initialize the window, with the name "example", its position centered on the screen, with a width of 640 and a height of 480
