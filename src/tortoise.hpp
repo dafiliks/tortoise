@@ -37,11 +37,10 @@ public:
 	// @brief Initializes a tortoise window
 	// @param[in] title Title of the window
 	// @param[in] posX X coordinate of the window's location on screen (use CENTERED here to center the window)
-	// @param[in] posX X coordinate of the window's location on screen (use CENTERED here to center the window)
 	// @param[in] posY Y coordinate of the window's location on screen (use CENTERED here to center the window)
 	// @param[in] width Wanted width of the window
 	// @param[in] height Wanted height of the window
-	// @returns A std::pair of pointers to this->window and this->renderer
+	// @returns A std::pair of pointers to window and renderer
 	std::pair<WINDOW*, RENDERER*> init(const char* title, int posX, int posY, int width, int height);
 
 	// @brief Sets the background color of the tortoise window
@@ -49,7 +48,7 @@ public:
 	// @param[in] green Amount of green (0-255)
     // @param[in] blue Amount of blue (0-255)
 	// @param[in] alpha Opacity of the final color (0-255)
-	// @returns A pointer to this->renderer
+	// @returns A pointer to renderer
 	RENDERER* bgcolor(u8 red, u8 green, u8 blue, u8 alpha);
 
 	// @brief Sets the pencolor of the tortoise
@@ -58,33 +57,33 @@ public:
 	// @param[in] green Amount of green (0-255)
 	// @param[in] blue Amount of blue (0-255)
 	// @param[in] alpha Opacity of the final color (0-255)
-	// @returns A pointer to this->renderer
+	// @returns A pointer to renderer
 	RENDERER* pencolor(u8 red, u8 green, u8 blue, u8 alpha);
 
 	// @brief Moves the tortoise forward (vertically) from down to up
 	// @param[in] distance How far the tortoise moves upwards
-	// @returns A pointer to this->renderer
+	// @returns A pointer to renderer
 	RENDERER* up(double distance);
 
 	// @brief Moves the tortoise left (horizontally) from right to left
 	// @param[in] distance How far the tortoise moves left
-	// @returns A pointer to this->renderer
+	// @returns A pointer to renderer
 	RENDERER* left(double distance);
 
 	// @brief Moves the tortoise right (horizontally) from left to right
 	// @param[in] distance How far the tortoise moves right
-	// @returns A pointer to this->renderer
+	// @returns A pointer to renderer
 	RENDERER* right(double distance);
 
 	// @brief Moves the tortoise backwards (vertically) from up to down
 	// @param[in] distance How far the tortoise moves backwards
-	// @returns A pointer to this->renderer
+	// @returns A pointer to renderer
 	RENDERER* down(double distance);
 
 	// @brief Rotates the tortoise in degrees and draws a line
 	// @param[in] angle How many degrees the tortoise rotates
 	// @param[in] nerf By how much distance the distance of the line drawn is shortened (finicky fix, will be updated in future)
-	// @returns An SDL_Point{this->width / 2, this->height / 2}
+	// @returns An SDL_Point{.., ..}
 	SDL_Point rotate(double angle, double nerf);
 
 	// @brief Moves the pen (vertically) from down to up without drawing anything
@@ -123,7 +122,7 @@ public:
 	int getwidth();
 
 	// @brief Gets height of the window
-	// @returns The width of the window
+	// @returns The height of the window
 	int getheight();
 
 	// @brief Gets the current X-axis position of the latest drawn line
