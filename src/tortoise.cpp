@@ -22,8 +22,6 @@ std::pair<WINDOW*, RENDERER*> tortoise::init(const char* title, int posX, int po
 	this->cx = width / 2;
 	this->cy = height / 2;
 
-	//SDL_RenderSetScale(this->renderer, 1, 1);
-
 	return std::make_pair(this->window, this->renderer);
 }
 
@@ -42,7 +40,7 @@ RENDERER* tortoise::pencolor(u8 red, u8 green, u8 blue, u8 alpha)
 	return this->renderer;
 }
 
-RENDERER* tortoise::forward(double distance)
+RENDERER* tortoise::up(double distance)
 {
 	SDL_RenderDrawLine(this->renderer, this->cx, this->cy, this->cx, this->cy - distance);
 
@@ -69,7 +67,7 @@ RENDERER* tortoise::right(double distance)
 	return this->renderer;
 }
 
-RENDERER* tortoise::backward(double distance)
+RENDERER* tortoise::down(double distance)
 {
 	SDL_RenderDrawLine(this->renderer, this->cx, this->cy, this->cx, this->cy + distance);
 
@@ -78,7 +76,7 @@ RENDERER* tortoise::backward(double distance)
 	return this->renderer;
 }
 
-SDL_Point tortoise::rotatedraw(double angle)
+SDL_Point tortoise::rotate(double angle, double nerf)
 {
 	SDL_Point point{ this->width / 2, this->height / 2 };
 
@@ -95,7 +93,7 @@ SDL_Point tortoise::rotatedraw(double angle)
 	point.x = xnew + this->cx;
 	point.y = ynew + this->cy;
 
-	SDL_RenderDrawLine(this->renderer, this->cx, this->cy, point.x, point.y);
+	SDL_RenderDrawLine(this->renderer, this->cx, this->cy, point.x - nerf, point.y - nerf);
 
 	this->cx = point.x;
 	this->cy = point.y;
@@ -103,15 +101,10 @@ SDL_Point tortoise::rotatedraw(double angle)
 	return point;
 }
 
-void tortoise::penupleft(double distance)
-{
-	this->cx -= distance;
-}
-
-void tortoise::penupright(double distance)
-{
-	this->cx += distance;
-}
+void tortoise::penupup(double distance) { this->cy -= distance; }
+void tortoise::penupleft(double distance) { this->cx -= distance; }
+void tortoise::penupright(double distance) { this->cx += distance; }
+void tortoise::penupdown(double distance) { this->cy += distance; }
 
 void tortoise::present() { SDL_RenderPresent(this->renderer); }
 

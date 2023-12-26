@@ -64,7 +64,7 @@ public:
 	// @brief Moves the tortoise forward (vertically) from down to up
 	// @param[in] distance How far the tortoise moves upwards
 	// @returns A pointer to this->renderer
-	RENDERER* forward(double distance);
+	RENDERER* up(double distance);
 
 	// @brief Moves the tortoise left (horizontally) from right to left
 	// @param[in] distance How far the tortoise moves left
@@ -72,23 +72,36 @@ public:
 	RENDERER* left(double distance);
 
 	// @brief Moves the tortoise right (horizontally) from left to right
-	// @param[in] distance How far the tortoise moves upwards
+	// @param[in] distance How far the tortoise moves right
 	// @returns A pointer to this->renderer
 	RENDERER* right(double distance);
 
 	// @brief Moves the tortoise backwards (vertically) from up to down
 	// @param[in] distance How far the tortoise moves backwards
 	// @returns A pointer to this->renderer
-	RENDERER* backward(double distance);
+	RENDERER* down(double distance);
 
 	// @brief Rotates the tortoise in degrees and draws a line
 	// @param[in] angle How many degrees the tortoise rotates
+	// @param[in] nerf By how much distance the distance of the line drawn is shortened (finicky fix, will be updated in future)
 	// @returns An SDL_Point{this->width / 2, this->height / 2}
-	SDL_Point rotatedraw(double angle);
+	SDL_Point rotate(double angle, double nerf);
 
+	// @brief Moves the pen (vertically) from down to up without drawing anything
+	// @param[in] distance How far the pen moves up
+	void penupup(double distance);
+
+	// @brief Moves the pen (horizontally) from right to left without drawing anything
+	// @param[in] distance How far the pen moves left
 	void penupleft(double distance);
 
+	// @brief Moves the pen (horizontally) from left to right without drawing anything
+	// @param[in] distance How far the pen moves right
 	void penupright(double distance);
+
+	// @brief Moves the pen (vertically) from up to down without drawing anything
+	// @param[in] distance How far the pen moves down
+	void penupdown(double distance);
 
 	// @brief Updates the screen with rendering performed since previous call. A wrapper for SDL_RenderPresent()
 	void present();
