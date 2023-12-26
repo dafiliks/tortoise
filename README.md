@@ -1,8 +1,8 @@
-<h1 align="center">cppturtle</h1>
+<h1 align="center">tortoise</h1>
 <p align="center">
 
-<img alt="GitHub Workflow Status" align="center" src="https://img.shields.io/github/actions/workflow/status/davidfiliks/cppturtle/cmake-multi-platform.yml">
-<img alt="GitHub Project Licence" align="center" src="https://img.shields.io/github/license/davidfiliks/cppturtle">
+<img alt="GitHub Workflow Status" align="center" src="https://img.shields.io/github/actions/workflow/status/dafiliks/tortoise/cmake-multi-platform.yml">
+<img alt="GitHub Project Licence" align="center" src="https://img.shields.io/github/license/dafiliks/tortoise">
 </p>
 <br>
 
@@ -20,16 +20,16 @@ This library is great because:
 (NO EXAMPLE YET, CPPTURTLE IS STILL IN THE EARLY STAGES OF DEVELOPMENT)
 ```
 
-## Installation
-To install the library, download or copy and paste all the cpp, hpp and CMake files in the [cppturtle folder](https://github.com/davidfiliks/cppturtle/tree/main/cppturtle) to your project and start using the library right away!
+## Dependencies
+The only dependency of this library is SDL2.
 
-After this, install SDL2 on Linux using a package manager. Below is the command for the Ubuntu package manager. 
+To install it on Linux, use the package manager of your distro. For the Ubuntu package manager, you can paste the command below into the terminal.
 ```bash
 # Install sdl2
 sudo apt-get install libsdl2-dev
 ```
 
-If you are on **Windows 10 build 17063 or later**, you can **cd** into the wanted download directory and paste these commands.
+To install it on Windows, if you are on **Windows 10 build 17063 or later**, you can **cd** into the wanted download directory and paste these commands.
 ```bash
 # Download sdl2.zip
 certutil.exe -urlcache -split -f "https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-devel-2.28.5-VC.zip" sdl2.zip
@@ -37,23 +37,6 @@ certutil.exe -urlcache -split -f "https://github.com/libsdl-org/SDL/releases/dow
 tar -xf sdl2.zip
 # Add sdl2 to your CMAKE_PREFIX_PATH environment variable
 setx CMAKE_PREFIX_PATH %cd%
-```
-
-After doing this, you should be able to `#include` the library's primary header file, `cppturtle.hpp` to your project.
-## Building the project
-For both Linux and Windows, you can simply paste these commands to build the project.
-```bash
-# Clone the cppturtle repository
-git clone https://github.com/dafiliks/cppturtle.git
-# Go into the cppturtle folder
-cd cppturtle
-
-# Create a folder called build
-mkdir build
-# Go into the build folder
-cd build
-# Use cmake on the previous directory
-cmake ..
 ```
 
 ## Documentation 
