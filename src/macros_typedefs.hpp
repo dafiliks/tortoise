@@ -6,8 +6,8 @@
 // @copyright 2023 David Filiks
 
 
-#ifndef MACROS_TYPEDEFS
-#define MACROS_TYPEDEFS
+#ifndef MACROS_TYPEDEFS_HPP
+#define MACROS_TYPEDEFS_HPP
 
 #include <iostream>
 
@@ -23,4 +23,4 @@ typedef uint8_t u8; // Shortens uint8_t to u8
 typedef uint32_t u32; // Shortens uint32_t to u32
 
 
-#endif // MACROS_TYPEDEFS
+#endif // MACROS_TYPEDEFS_HPP

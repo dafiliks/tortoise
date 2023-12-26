@@ -6,8 +6,8 @@
 // @copyright 2023 David Filiks
 
 
-#ifndef TORTOISE
-#define TORTOISE
+#ifndef TORTOISE_HPP
+#define TORTOISE_HPP
 
 #include <iostream>
 #include <utility>
@@ -135,5 +135,5 @@ public:
 	double getcy();
 };
 
-#endif // TORTOISE.HPP
+#endif // TORTOISE_HPP
 
