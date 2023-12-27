@@ -1,6 +1,6 @@
 <h1 align="center">tortoise</h1>
 <p align="center">
-<img src="assets/croppedcircle.png" align="center" title="logo">
+<img src="assets/logov3.png" align="center" title="logo">
 <br>
 <img alt="GitHub Workflow Status" align="center" src="https://img.shields.io/github/actions/workflow/status/dafiliks/tortoise/cmake-multi-platform.yml">
 <img alt="GitHub Project Licence" align="center" src="https://img.shields.io/github/license/dafiliks/tortoise">
@@ -46,13 +46,6 @@ int main()
 	return 0;
 }
 ```
-## How does it work?
-This image shows perfectly how the code above functions and what result it creates.
-<p align="center">
-<img src="assets/example.jpg" align="center" title="logo">
-</p>
-
-To learn how to make more complex things like the logo, check out [this file](tests/tests.cpp). This code is what draws the logo right at the top of the README. Try it out for yourself!
 
 ## Dependencies
 The only dependency of this library is SDL2.
