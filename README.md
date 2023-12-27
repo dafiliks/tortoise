@@ -13,6 +13,7 @@ This library is great because:
 - Is very easy to use
 - Perfect for beginners to learn C++ syntax
 - Is object-oriented
+- Has 3 test examples that you can find [here](examples)
 - Comes with great documentation
 - Can produce rather complex graphics with a small amount of code
 
