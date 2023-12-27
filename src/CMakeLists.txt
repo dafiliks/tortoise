@@ -2,11 +2,11 @@
 
 find_package(SDL2 REQUIRED)
 
-add_executable (cppturtle "../tests/tests.cpp" "tortoise.hpp" "tortoise.cpp" "macros_typedefs.hpp")   
+add_executable (tortoise "../tests/tests.cpp" "tortoise.hpp" "tortoise.cpp" "macros_typedefs.hpp")   
 
-target_link_libraries(cppturtle SDL2::SDL2 SDL2::SDL2main)
+target_link_libraries(tortoise SDL2::SDL2 SDL2::SDL2main)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET cppturtle PROPERTY CXX_STANDARD 20)
+  set_property(TARGET tortoise PROPERTY CXX_STANDARD 20)
 endif()
 

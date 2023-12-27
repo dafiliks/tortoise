@@ -1,0 +1,5 @@
+C:/Users/davidfiliks/source/repos/square/out/build/x86-debug/CMakeFiles/edit_cache.dir
+C:/Users/davidfiliks/source/repos/square/out/build/x86-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/davidfiliks/source/repos/square/out/build/x86-debug/src/CMakeFiles/square.dir
+C:/Users/davidfiliks/source/repos/square/out/build/x86-debug/src/CMakeFiles/edit_cache.dir
+C:/Users/davidfiliks/source/repos/square/out/build/x86-debug/src/CMakeFiles/rebuild_cache.dir

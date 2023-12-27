@@ -1,0 +1,4 @@
+# ninja log v5
+2	705	7253352126684026	src/CMakeFiles/rectangle.dir/__/rectangle.cpp.obj	f266318919f600f5
+4	713	7253352126719503	src/CMakeFiles/rectangle.dir/tortoise.cpp.obj	112c7e4999538b62
+713	769	7253352127251433	src/rectangle.exe	c5e7f63f0d9a2f69

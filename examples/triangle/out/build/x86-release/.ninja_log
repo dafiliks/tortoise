@@ -1,0 +1,4 @@
+# ninja log v5
+2	770	7253384864284276	src/CMakeFiles/triangle.dir/__/triangle.cpp.obj	a6973f7ce1a14e2c
+4	781	7253384864385619	src/CMakeFiles/triangle.dir/tortoise.cpp.obj	7d3bcc4231bf1f4f
+781	846	7253384864963160	src/triangle.exe	f08ce125b03d8d13

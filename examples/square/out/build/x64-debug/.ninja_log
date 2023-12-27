@@ -1,0 +1,6 @@
+# ninja log v5
+3	829	7253358441428631	src/CMakeFiles/square.dir/tortoise.cpp.obj	6abc10281412d1e5
+1	830	7253358441438763	src/CMakeFiles/square.dir/__/square.cpp.obj	347b3074ffd5abf7
+830	1029	7253358443329315	src/square.exe	9ebe005259ded0ba
+1	1226	7253370737659884	src/CMakeFiles/square.dir/__/square.cpp.obj	347b3074ffd5abf7
+1227	1335	7253370738597403	src/square.exe	9ebe005259ded0ba
