@@ -13,12 +13,12 @@ This library is great because:
 - Is very easy to use
 - Perfect for beginners to learn C++ syntax
 - Is object-oriented
-- Has 3 test examples that you can find [here](examples)
+- Has 3 test examples that you can find [here](https://github.com/dafiliks/tortoise/tree/main/examples)
 - Comes with great documentation
 - Can produce rather complex graphics with a small amount of code
 
 ## Example usage
-This is how you can draw a simple rectangle to the screen. This example can also be found [here](examples/rectangle).
+This is how you can draw a simple rectangle to the screen. This example can also be found [here](https://github.com/dafiliks/tortoise/tree/main/examples/rectangle).
 
 ```cpp
 #include "src/tortoise.hpp"
@@ -66,7 +66,7 @@ tar -xf sdl2.zip
 setx CMAKE_PREFIX_PATH %cd%
 ```
 ## How do I get started?
-If you are new, please check out the examples [here](examples).
+If you are new, please check out the examples [here](https://github.com/dafiliks/tortoise/tree/main/examples).
 
 After you do this:
 - Install SDL2 dependency
@@ -75,18 +75,18 @@ After you do this:
 - ***Don't open up the examples in any text editors like Vim or Visual Studio Code unless you are an advanced user!!***
 
 ## Documentation 
-This library has a very well-written documentation. You can see the full documentation [here](docs/DOCUMENTATION.md). Alternatively, every function in this library has comments regarding its purpose, parameters, return types, etc.
+This library has a very well-written documentation. You can see the full documentation [here](https://github.com/dafiliks/tortoise/blob/main/docs/DOCUMENTATION.md). Alternatively, every function in this library has comments regarding its purpose, parameters, return types, etc.
 
 ## Issues and pull requests 
 If you have any suggestions, ideas, or any sort of contribution, feel free to ask!
 Please also open an issue if you have an issue (obviously).
 
-Contribution guidelines can be found [here](CONTRIBUTING.md).
+Contribution guidelines can be found [here](https://github.com/dafiliks/tortoise/blob/main/CONTRIBUTING.md).
 
 If you found this project interesting and like the idea, feel free to give it a star.
 
 ## Legal
-Click [here](LICENSE) to view the license of the project or just look below.
+Click [here](https://github.com/dafiliks/tortoise/blob/main/LICENSE) to view the license of the project or just look below.
 
 ```
 MIT License
