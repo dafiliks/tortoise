@@ -72,6 +72,14 @@ tar -xf sdl2.zip
 # Add sdl2 to your CMAKE_PREFIX_PATH environment variable
 setx CMAKE_PREFIX_PATH %cd%
 ```
+## How do I get started?
+If you are new, please check out the examples [here](examples).
+
+After you do this:
+- Install SDL2 dependency
+- Download one of the examples
+- Open up one of the examples using Visual Studio Community or any other Visual Studio version
+- ***Don't open up the examples in any text editors like Vim or Visual Studio Code unless you are an advanced user!!***
 
 ## Documentation 
 This library has a very well-written documentation. You can see the full documentation [here](docs/DOCUMENTATION.md). Alternatively, every function in this library has comments regarding its purpose, parameters, return types, etc.
