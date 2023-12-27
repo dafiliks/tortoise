@@ -1,5 +1,6 @@
 # CONTRIBUTION GUIDELINES
-
+---
+---
 This guideline will cover how you can contribute to the project.
 <br>
 
