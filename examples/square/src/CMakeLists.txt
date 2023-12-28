@@ -2,7 +2,7 @@
 
 find_package(SDL2 REQUIRED)
 
-add_executable (square "../square.cpp" "tortoise.hpp" "tortoise.cpp" "macros_typedefs.hpp")   
+add_executable (square "../square.cpp" "tortoise.cpp" )   
 
 target_link_libraries(square SDL2::SDL2 SDL2::SDL2main)
 

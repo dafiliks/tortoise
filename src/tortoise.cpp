@@ -110,11 +110,11 @@ void tortoise::present() { SDL_RenderPresent(this->renderer); }
 
 void tortoise::delay(u32 ms) { SDL_Delay(ms); }
 
-WINDOW* tortoise::getwindow() { return this->window; }
-RENDERER* tortoise::getrenderer() { return this->renderer; }
+WINDOW* tortoise::getwindow() const { return this->window; }
+RENDERER* tortoise::getrenderer() const { return this->renderer; }
 
-int tortoise::getwidth() { return this->width; }
-int tortoise::getheight() { return this->height; }
+int tortoise::getwidth() const { return this->width; }
+int tortoise::getheight() const { return this->height; }
 
-double tortoise::getcx() { return this->cx; }
-double tortoise::getcy() { return this->cy; }
+double tortoise::getcx() const { return this->cx; }
+double tortoise::getcy() const { return this->cy; }

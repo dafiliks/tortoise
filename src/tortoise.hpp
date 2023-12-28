@@ -32,7 +32,11 @@ private:
 
 public:
 	tortoise() = default;
-	~tortoise() = default;
+	~tortoise()
+	{
+		delete this->window;
+		delete this->renderer;
+	}
 
 	// @brief Initializes a tortoise window
 	// @param[in] title Title of the window
@@ -111,27 +115,27 @@ public:
 
 	// @brief Gets pointer to the window
 	// @returns Pointer to the window
-	WINDOW* getwindow();
+	WINDOW* getwindow() const;
 
 	// @brief Gets pointer to the renderer
 	// @returns Pointer to the renderer
-	RENDERER* getrenderer();
+	RENDERER* getrenderer() const;
 
 	// @brief Gets width of the window
 	// @returns The width of the window
-	int getwidth();
+	int getwidth() const;
 
 	// @brief Gets height of the window
 	// @returns The height of the window
-	int getheight();
+	int getheight() const;
 
 	// @brief Gets the current X-axis position of the latest drawn line
 	// @returns Current X-axis position of the latest drawn line
-	double getcx();
+	double getcx() const;
 
 	// @brief Gets the current Y-axis position of the latest drawn line
 	// @returns Current Y-axis position of the latest drawn line
-	double getcy();
+	double getcy() const;
 };
 
 #endif // TORTOISE_HPP

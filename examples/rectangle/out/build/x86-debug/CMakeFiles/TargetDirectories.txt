@@ -1,5 +1,0 @@
-C:/Users/davidfiliks/source/repos/rectangle/out/build/x86-debug/CMakeFiles/edit_cache.dir
-C:/Users/davidfiliks/source/repos/rectangle/out/build/x86-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/davidfiliks/source/repos/rectangle/out/build/x86-debug/src/CMakeFiles/rectangle.dir
-C:/Users/davidfiliks/source/repos/rectangle/out/build/x86-debug/src/CMakeFiles/edit_cache.dir
-C:/Users/davidfiliks/source/repos/rectangle/out/build/x86-debug/src/CMakeFiles/rebuild_cache.dir

@@ -7,8 +7,6 @@
 
 #include "../src/tortoise.hpp"
 
-#undef main // Fix unresolved externals
-
 int main()
 {
 	// Create tortoise object

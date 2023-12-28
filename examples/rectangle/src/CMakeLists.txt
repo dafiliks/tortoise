@@ -2,7 +2,7 @@
 
 find_package(SDL2 REQUIRED)
 
-add_executable (rectangle "../rectangle.cpp" "tortoise.hpp" "tortoise.cpp" "macros_typedefs.hpp")   
+add_executable (rectangle "../rectangle.cpp" "tortoise.cpp" )   
 
 target_link_libraries(rectangle SDL2::SDL2 SDL2::SDL2main)
 

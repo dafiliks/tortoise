@@ -13,6 +13,8 @@
 
 #include <SDL.h>
 
+#undef main // Fix unresolved externals
+
 #define CENTERED SDL_WINDOWPOS_CENTERED // Macro for the centre of the screen
 #define PI acos(-1) // Macro for PI
 

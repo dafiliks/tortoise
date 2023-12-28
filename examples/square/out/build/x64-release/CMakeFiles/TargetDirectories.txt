@@ -1,5 +1,0 @@
-C:/Users/davidfiliks/source/repos/square/out/build/x64-release/CMakeFiles/edit_cache.dir
-C:/Users/davidfiliks/source/repos/square/out/build/x64-release/CMakeFiles/rebuild_cache.dir
-C:/Users/davidfiliks/source/repos/square/out/build/x64-release/src/CMakeFiles/square.dir
-C:/Users/davidfiliks/source/repos/square/out/build/x64-release/src/CMakeFiles/edit_cache.dir
-C:/Users/davidfiliks/source/repos/square/out/build/x64-release/src/CMakeFiles/rebuild_cache.dir
