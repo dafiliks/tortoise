@@ -87,7 +87,6 @@ If you found this project interesting and like the idea, feel free to give it a 
 
 ## Legal
 Click [here](https://github.com/dafiliks/tortoise/blob/main/LICENSE) to view the license of the project or just look below.
-
 ```
 MIT License
 
